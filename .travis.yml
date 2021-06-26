@@ -1,4 +1,7 @@
-language: minimal
+language: go
+
+go:
+  - 1.16.x
 
 before_install:
   - go mod download
